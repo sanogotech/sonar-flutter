@@ -31,10 +31,13 @@ Changelog is available [here](https://github.com/insideapp-oss/sonar-flutter/blo
 ## Prerequisites
 
 ### Flutter SDK
-
+```
 flutter doctor
-flutter emulators --create
 flutter devices
+flutter emulators
+flutter emulators --create flutter_emulator
+flutter emulators --launch flutter_emulator
+```
 
 
 Install Flutter as explained on the official documentaiton page.
